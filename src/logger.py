@@ -18,3 +18,7 @@ def configure_logging():
     return log_file_path
 
 
+configure_logging()
+logging.getLogger(__name__)
+
+
