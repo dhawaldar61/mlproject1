@@ -1,8 +1,5 @@
-import logging
 import sys
 from typing import Any, Optional
-
-from logger import configure_logging
 
 
 def error_message_detail(error: Any, error_detail: Optional[Any] = None) -> str:
@@ -46,5 +43,4 @@ class CustomException(Exception):
         return self.error_message
 
 
-
-    
+CustomeException = CustomException
